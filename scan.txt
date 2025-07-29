@@ -1,0 +1,68 @@
+# Nmap 7.95 scan initiated Tue Jul 29 19:39:44 2025 as: /usr/lib/nmap/nmap --privileged -p 80 -A -oN scan.txt scanme.nmap.org/30
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.0053s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: power-device|firewall|WAP|router
+Running: APC embedded, Cisco ASA 9.X, Cisco embedded, Synology embedded
+OS CPE: cpe:/o:cisco:asa:9.2 cpe:/h:synology:rt1900ac
+OS details: APC Network Management Card 3, Cisco Adaptive Security Appliance (ASA 9.2), Cisco Aironet 3800-series WAP, Synology RT1900ac router
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.76 ms scanme.nmap.org (45.33.32.156)
+
+Nmap scan report for 45.33.32.157
+Host is up (0.00094s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: power-device|firewall|WAP|router
+Running: APC embedded, Cisco ASA 9.X, Cisco embedded, Synology embedded
+OS CPE: cpe:/o:cisco:asa:9.2 cpe:/h:synology:rt1900ac
+OS details: APC Network Management Card 3, Cisco Adaptive Security Appliance (ASA 9.2), Cisco Aironet 3800-series WAP, Synology RT1900ac router
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.61 ms 45.33.32.157
+
+Nmap scan report for 45.33.32.158
+Host is up (0.00083s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: power-device|firewall|WAP|router
+Running: APC embedded, Cisco ASA 9.X, Cisco embedded, Synology embedded
+OS CPE: cpe:/o:cisco:asa:9.2 cpe:/h:synology:rt1900ac
+OS details: APC Network Management Card 3, Cisco Adaptive Security Appliance (ASA 9.2), Cisco Aironet 3800-series WAP, Synology RT1900ac router
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   1.55 ms 45.33.32.158
+
+Nmap scan report for 45.33.32.159
+Host is up (0.00056s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: power-device|firewall|WAP|router
+Running: APC embedded, Cisco ASA 9.X, Cisco embedded, Synology embedded
+OS CPE: cpe:/o:cisco:asa:9.2 cpe:/h:synology:rt1900ac
+OS details: APC Network Management Card 3, Cisco Adaptive Security Appliance (ASA 9.2), Cisco Aironet 3800-series WAP, Synology RT1900ac router
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   1.05 ms 45.33.32.159
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jul 29 19:39:51 2025 -- 4 IP addresses (4 hosts up) scanned in 6.95 seconds
